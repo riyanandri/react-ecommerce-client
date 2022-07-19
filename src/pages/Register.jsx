@@ -39,7 +39,7 @@ const Input = styled.input`
 `;
 
 const Agreement = styled.span`
-    font-size: 14px;
+    font-size: 13px;
     margin: 20px 0px;
 `;
 
