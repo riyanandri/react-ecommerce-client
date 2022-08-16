@@ -78,15 +78,6 @@ const ProductName = styled.span``;
 
 const ProductId = styled.span``;
 
-const ProductColor = styled.div`
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: ${(props) => props.color};
-`;
-
-const ProductSize = styled.span``;
-
 const PriceDetail = styled.div`
     flex: 1;
     display: flex;
@@ -162,79 +153,63 @@ const Cart = () => {
                     <TopText>Keranjang (2)</TopText>
                     <TopText>Disukai (0)</TopText>
                 </TopTexts>
-                <TopButton type="filled">BAYAR SEKARANG</TopButton>
+                <TopButton type="filled">BAYAR SEKARANG </TopButton>
             </Top>
             <Bottom>
                 <Info>
                     <Product>
                         <ProductDetail>
-                            <Image src="https://i.ibb.co/J3YW8yd/kategori3.jpg" />
+                            <Image src="https://i.ibb.co/r4tLJLN/04d38f19e4dd81a6d51e595c70bbe20f-jpg-720x720q80-jpg.webp"/>
                             <Details>
-                            <ProductName>
-                                <b>Tanaman:</b> DURIAN MONTONG
-                            </ProductName>
-                            <ProductId>
-                                <b>ID:</b> 93813718293
-                            </ProductId>
-                            <ProductColor color="black" />
-                            <ProductSize>
-                                <b>Size:</b> 37.5
-                            </ProductSize>
+                                <ProductName><b>Product:</b> DURIAN MUSANG KING</ProductName>
+                                <ProductId><b>ID:</b> 46458657956721</ProductId>
                             </Details>
                         </ProductDetail>
                         <PriceDetail>
                             <ProductAmountContainer>
-                            <AddIcon />
-                            <ProductAmount>2</ProductAmount>
-                            <RemoveIcon />
+                                <AddIcon/>
+                                <ProductAmount>2</ProductAmount>
+                                <RemoveIcon/>
                             </ProductAmountContainer>
-                            <ProductPrice>$ 30</ProductPrice>
+                            <ProductPrice>Rp 25000</ProductPrice>
                         </PriceDetail>
                     </Product>
-                    <Hr />
+                    <Hr/>
                     <Product>
                         <ProductDetail>
-                            <Image src="https://i.ibb.co/Zz0vDGj/kategori1.jpg" />
+                            <Image src="https://i.ibb.co/r4tLJLN/04d38f19e4dd81a6d51e595c70bbe20f-jpg-720x720q80-jpg.webp"/>
                             <Details>
-                                <ProductName>
-                                    <b>Tanaman:</b> DURIAN MUSANG KING
-                                </ProductName>
-                                <ProductId>
-                                    <b>ID:</b> 93813718293
-                                </ProductId>
-                                <ProductColor color="gray" />
-                                <ProductSize>
-                                    <b>Size:</b> M
-                                </ProductSize>
+                                <ProductName><b>Product:</b> DURIAN MUSANG KING</ProductName>
+                                <ProductId><b>ID:</b> 46458657956721</ProductId>
                             </Details>
                         </ProductDetail>
                         <PriceDetail>
                             <ProductAmountContainer>
-                            <AddIcon />
-                            <ProductAmount>1</ProductAmount>
-                            <RemoveIcon />
+                                <AddIcon/>
+                                <ProductAmount>2</ProductAmount>
+                                <RemoveIcon/>
                             </ProductAmountContainer>
-                            <ProductPrice>$ 20</ProductPrice>
+                            <ProductPrice>Rp 25000</ProductPrice>
                         </PriceDetail>
                     </Product>
                 </Info>
                 <Summary>
-                    <SummaryTitle>PESANAN</SummaryTitle>
+                    <SummaryTitle>ORDER SUMMARY</SummaryTitle>
                     <SummaryItem>
                         <SummaryItemText>Subtotal</SummaryItemText>
-                        <SummaryItemPrice>$ 80</SummaryItemPrice>
+                        <SummaryItemPrice>Rp 50000</SummaryItemPrice>
                     </SummaryItem>
                     <SummaryItem>
-                        <SummaryItemText>Ongkir</SummaryItemText>
-                        <SummaryItemPrice>$ 5.90</SummaryItemPrice>
+                        <SummaryItemText>Estimated Shipping</SummaryItemText>
+                        <SummaryItemPrice>Rp 15000</SummaryItemPrice>
                     </SummaryItem>
                     <SummaryItem>
-                        <SummaryItemText>Diskon</SummaryItemText>
-                        <SummaryItemPrice>$ -5.90</SummaryItemPrice>
+                        <SummaryItemText>Discount</SummaryItemText>
+                        <SummaryItemPrice>Rp -0</SummaryItemPrice>
                     </SummaryItem>
                     <SummaryItem type="total">
                         <SummaryItemText>Total</SummaryItemText>
-                        <SummaryItemPrice>$ 80</SummaryItemPrice>
+                        <SummaryItemPrice>Rp 65000</SummaryItemPrice>
                     </SummaryItem>
                     <Button>BAYAR SEKARANG</Button>
                 </Summary>
