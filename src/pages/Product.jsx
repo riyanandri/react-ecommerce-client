@@ -6,12 +6,15 @@ import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
+import { mobile } from "../responsive";
+
 
 const Container = styled.div``;
 
 const Wrapper = styled.div`
     padding: 50px;
     display: flex;
+    ${mobile({ padding: "10px", flexDirection:"column" })}
 `;
 
 const ImgContainer = styled.div`
@@ -22,11 +25,13 @@ const Image = styled.img`
     width: 100%;
     height: 90vh;
     object-fit: cover;
+    ${mobile({ height: "40vh" })}
 `;
 
 const InfoContainer = styled.div`
     flex: 1;
     padding: 0px 50px;
+    ${mobile({ padding: "10px" })}
 `;
 
 const Title = styled.h1`
@@ -47,6 +52,7 @@ const FilterContainer = styled.div`
     margin: 30px 0px;
     display: flex;
     justify-content: space-between;
+    ${mobile({ width: "100%" })}
 `;
 
 const Filter = styled.div`
@@ -78,6 +84,7 @@ const AddContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    ${mobile({ width: "100%" })}
 `;
 
 const AmountContainer = styled.div`
@@ -116,16 +123,14 @@ const Product = () => {
         <Announcement/>
         <Wrapper>
             <ImgContainer>
-                <Image src="https://i.ibb.co/B4RN8XW/kategori2.jpg" />
+                <Image src="https://i.ibb.co/VNqBY4r/MERBAU.jpg" />
             </ImgContainer>
             <InfoContainer>
                 <Title>Durian Montong</Title>
                 <Desc>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                    venenatis, dolor in finibus malesuada, lectus ipsum porta nunc, at
-                    iaculis arcu nisi sed mauris. Nulla fermentum vestibulum ex, eget
-                    tristique tortor pretium ut. Curabitur elit justo, consequat id
-                    condimentum ac, volutpat ornare.
+                    Tanaman Merbau atau dikenal dengan nama ipil adalah penghasil kayu keras 
+                    dengan kualitas sangat bagus, bahkan dikenal juga sebagai kayu besi, kayu ini 
+                    banyak di jadikan sebagai kayu perkapalan, jembatan dan industri lain nya.
                 </Desc>
                 <Price>Rp 75000</Price>
                 <FilterContainer>

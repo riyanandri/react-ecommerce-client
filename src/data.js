@@ -43,42 +43,42 @@ export const categories = [
 export const popularProducts = [
     {
         id: 1,
-        img: "",
+        img: "https://i.ibb.co/KLB0361/tanaman-buah.png",
     },
     {
         id: 2,
-        img: "",
+        img: "https://i.ibb.co/KLB0361/tanaman-buah.png",
     },
     {
         id: 3,
-        img: "",
+        img: "https://i.ibb.co/KLB0361/tanaman-buah.png",
     },
     {
         id: 4,
-        img: "",
+        img: "https://i.ibb.co/KLB0361/tanaman-buah.png",
     },
     {
         id: 5,
-        img: "",
+        img: "https://i.ibb.co/KLB0361/tanaman-buah.png",
     },
     {
         id: 6,
-        img: "",
+        img: "https://i.ibb.co/KLB0361/tanaman-buah.png",
     },
     {
         id: 7,
-        img: "",
+        img: "https://i.ibb.co/KLB0361/tanaman-buah.png",
     },
     {
         id: 8,
-        img: "",
+        img: "https://i.ibb.co/KLB0361/tanaman-buah.png",
     },
     {
         id: 9,
-        img: "",
+        img: "https://i.ibb.co/KLB0361/tanaman-buah.png",
     },
     {
         id: 10,
-        img: "",
+        img: "https://i.ibb.co/KLB0361/tanaman-buah.png",
     },
 ];
