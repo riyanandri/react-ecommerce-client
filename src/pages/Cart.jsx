@@ -123,7 +123,7 @@ const Summary = styled.div`
 `;
 
 const SummaryTitle = styled.h1`
-    font-weight: 200;
+    font-weight: 300;
 `;
 
 const SummaryItem = styled.div`
@@ -165,9 +165,9 @@ const Cart = () => {
                 <Info>
                     <Product>
                         <ProductDetail>
-                            <Image src="https://i.ibb.co/r4tLJLN/04d38f19e4dd81a6d51e595c70bbe20f-jpg-720x720q80-jpg.webp"/>
+                            <Image src="https://i.ibb.co/KLB0361/tanaman-buah.png"/>
                             <Details>
-                                <ProductName><b>Product:</b> DURIAN MUSANG KING</ProductName>
+                                <ProductName><b>Produk:</b> DURIAN MONTONG</ProductName>
                                 <ProductId><b>ID:</b> 46458657956721</ProductId>
                             </Details>
                         </ProductDetail>
@@ -183,9 +183,45 @@ const Cart = () => {
                     <Hr/>
                     <Product>
                         <ProductDetail>
-                            <Image src="https://i.ibb.co/r4tLJLN/04d38f19e4dd81a6d51e595c70bbe20f-jpg-720x720q80-jpg.webp"/>
+                            <Image src="https://i.ibb.co/KLB0361/tanaman-buah.png"/>
                             <Details>
-                                <ProductName><b>Product:</b> DURIAN MUSANG KING</ProductName>
+                                <ProductName><b>Produk:</b> DURIAN MONTONG</ProductName>
+                                <ProductId><b>ID:</b> 46458657956721</ProductId>
+                            </Details>
+                        </ProductDetail>
+                        <PriceDetail>
+                            <ProductAmountContainer>
+                                <AddIcon/>
+                                <ProductAmount>2</ProductAmount>
+                                <RemoveIcon/>
+                            </ProductAmountContainer>
+                            <ProductPrice>Rp 25000</ProductPrice>
+                        </PriceDetail>
+                    </Product>
+                    <Hr/>
+                    <Product>
+                        <ProductDetail>
+                            <Image src="https://i.ibb.co/KLB0361/tanaman-buah.png"/>
+                            <Details>
+                                <ProductName><b>Produk:</b> DURIAN MONTONG</ProductName>
+                                <ProductId><b>ID:</b> 46458657956721</ProductId>
+                            </Details>
+                        </ProductDetail>
+                        <PriceDetail>
+                            <ProductAmountContainer>
+                                <AddIcon/>
+                                <ProductAmount>2</ProductAmount>
+                                <RemoveIcon/>
+                            </ProductAmountContainer>
+                            <ProductPrice>Rp 25000</ProductPrice>
+                        </PriceDetail>
+                    </Product>
+                    <Hr/>
+                    <Product>
+                        <ProductDetail>
+                            <Image src="https://i.ibb.co/KLB0361/tanaman-buah.png"/>
+                            <Details>
+                                <ProductName><b>Produk:</b> DURIAN MONTONG</ProductName>
                                 <ProductId><b>ID:</b> 46458657956721</ProductId>
                             </Details>
                         </ProductDetail>
@@ -200,17 +236,17 @@ const Cart = () => {
                     </Product>
                 </Info>
                 <Summary>
-                    <SummaryTitle>ORDER SUMMARY</SummaryTitle>
+                    <SummaryTitle>RINGKASAN PESANAN</SummaryTitle>
                     <SummaryItem>
                         <SummaryItemText>Subtotal</SummaryItemText>
                         <SummaryItemPrice>Rp 50000</SummaryItemPrice>
                     </SummaryItem>
                     <SummaryItem>
-                        <SummaryItemText>Estimated Shipping</SummaryItemText>
+                        <SummaryItemText>Ongkos Kirim</SummaryItemText>
                         <SummaryItemPrice>Rp 15000</SummaryItemPrice>
                     </SummaryItem>
                     <SummaryItem>
-                        <SummaryItemText>Discount</SummaryItemText>
+                        <SummaryItemText>Diskon</SummaryItemText>
                         <SummaryItemPrice>Rp -0</SummaryItemPrice>
                     </SummaryItem>
                     <SummaryItem type="total">

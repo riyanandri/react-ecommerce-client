@@ -46,32 +46,11 @@ const ProductList = () => {
         <Title>Durian</Title>
         <FilterContainer>
             <Filter>
-                <FilterText>Filter:</FilterText>
-                <Select>
-                    <Option disabled selected>
-                    Jenis
-                    </Option>
-                    <Option>Musang King</Option>
-                    <Option>Montong</Option>
-                    <Option>Bawor</Option>
-                </Select>
-                <Select>
-                    <Option disabled selected>
-                    Umur
-                    </Option>
-                    <Option>1 Bulan</Option>
-                    <Option>2 Bulan</Option>
-                    <Option>3 Bulan</Option>
-                    <Option>6 Bulan</Option>
-                    <Option>12 Bulan</Option>
-                </Select>
-            </Filter>
-            <Filter>
                 <FilterText>Sortir:</FilterText>
                 <Select>
                     <Option selected>Terbaru</Option>
-                    <Option>Harga (asc)</Option>
-                    <Option>Harga (desc)</Option>
+                    <Option>Harga Terendah</Option>
+                    <Option>Harga Tertinggi</Option>
                 </Select>
             </Filter>
         </FilterContainer>

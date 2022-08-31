@@ -6,7 +6,7 @@ import { mobile } from "../responsive";
 
 const Container = styled.div`
     height: 60vh;
-    background-color: #fcf5f5;
+    background-color: #f7faff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,14 +44,14 @@ const Input = styled.input`
 const Button = styled.button`
     border: none;
     flex: 1;
-    background-color: teal;
+    background-color: #99c02a;
     color: white;
 `;
 
 const Newsletter = () => {
   return (
     <Container>
-        <Title>Langganan</Title>
+        <Title>Subscribe</Title>
         <Description>Dapatkan informasi terbaru bibit dan benih tanaman dari kami.</Description>
         <InputContainer>
             <Input placeholder="Email"/>

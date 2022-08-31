@@ -48,9 +48,17 @@ const Center = styled.div`
     text-align: center;
 `;
 
-const Logo = styled.h1`
-    font-weight: bold;
-    ${mobile({ fontSize: "24px" })}
+// const Logo = styled.h1`
+//     font-weight: bold;
+//     ${mobile({ fontSize: "24px" })}
+// `;
+
+const Logo = styled.img`
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    ${mobile({ display: "none" })}
+
 `;
 
 const Right = styled.div`
@@ -80,14 +88,14 @@ const Navbar = () => {
                 </SearchContainer>
             </Left>
             <Center>
-                <Logo>BIBIT.</Logo>
+                <Logo src="https://i.ibb.co/VwskdHt/logo.png"/>
             </Center>
             <Right>
                 <MenuItem>DAFTAR</MenuItem>
                 <MenuItem>MASUK</MenuItem>
 
                 <MenuItem>
-                    <Badge badgeContent={4} color="secondary">
+                    <Badge badgeContent={4} color="success">
                         <ShoppingCartOutlinedIcon />
                     </Badge>
                 </MenuItem>

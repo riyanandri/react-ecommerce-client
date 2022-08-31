@@ -47,41 +47,42 @@ const Price = styled.span`
     font-size: 40px;
 `;
 
-const FilterContainer = styled.div`
-    width: 50%;
-    margin: 30px 0px;
-    display: flex;
-    justify-content: space-between;
-    ${mobile({ width: "100%" })}
-`;
+// const FilterContainer = styled.div`
+//     width: 50%;
+//     margin: 30px 0px;
+//     display: flex;
+//     justify-content: space-between;
+//     ${mobile({ width: "100%" })}
+// `;
 
-const Filter = styled.div`
-    display: flex;
-    align-items: center;
-`;
+// const Filter = styled.div`
+//     display: flex;
+//     align-items: center;
+// `;
 
-const FilterTitle = styled.span`
-    font-size: 20px;
-    font-weight: 200;
-`;
+// const FilterTitle = styled.span`
+//     font-size: 20px;
+//     font-weight: 200;
+// `;
 
-const FilterJenis = styled.select`
-    margin-left: 10px;
-    padding: 5px;
-`;
+// const FilterJenis = styled.select`
+//     margin-left: 10px;
+//     padding: 5px;
+// `;
 
-const FilterJenisOption = styled.option``;
+// const FilterJenisOption = styled.option``;
 
-const FilterUmur = styled.select`
-    margin-left: 10px;
-    padding: 5px;
-`;
+// const FilterUmur = styled.select`
+//     margin-left: 10px;
+//     padding: 5px;
+// `;
 
-const FilterUmurOption = styled.option``;
+// const FilterUmurOption = styled.option``;
 
 const AddContainer = styled.div`
     width: 50%;
     display: flex;
+    margin: 30px 0px;
     align-items: center;
     justify-content: space-between;
     ${mobile({ width: "100%" })}
@@ -123,36 +124,14 @@ const Product = () => {
         <Announcement/>
         <Wrapper>
             <ImgContainer>
-                <Image src="https://i.ibb.co/VNqBY4r/MERBAU.jpg" />
+                <Image src="https://i.ibb.co/KLB0361/tanaman-buah.png" />
             </ImgContainer>
             <InfoContainer>
                 <Title>Durian Montong</Title>
                 <Desc>
-                    Tanaman Merbau atau dikenal dengan nama ipil adalah penghasil kayu keras 
-                    dengan kualitas sangat bagus, bahkan dikenal juga sebagai kayu besi, kayu ini 
-                    banyak di jadikan sebagai kayu perkapalan, jembatan dan industri lain nya.
+                Durian Montong merupakan salah satu jenis durian yang populer di Indonesia. Durian ini awalnya berasal dari Thailand. Daging buahnya berwarna kuning dan tebal, sedikit terasa kering dan kurang berlemak. Daging buah manis sekali dan bertekstur halus dengan aroma tajam yang sedang.
                 </Desc>
                 <Price>Rp 75000</Price>
-                <FilterContainer>
-                    <Filter>
-                        <FilterTitle>Jenis</FilterTitle>
-                        <FilterJenis>
-                            <FilterJenisOption>Musang King</FilterJenisOption>
-                            <FilterJenisOption>Montong</FilterJenisOption>
-                            <FilterJenisOption>Bawor</FilterJenisOption>
-                        </FilterJenis>
-                    </Filter>
-                    <Filter>
-                        <FilterTitle>Umur</FilterTitle>
-                        <FilterUmur>
-                            <FilterUmurOption>1 Bulan</FilterUmurOption>
-                            <FilterUmurOption>2 Bulan</FilterUmurOption>
-                            <FilterUmurOption>3 Bulan</FilterUmurOption>
-                            <FilterUmurOption>6 Bulan</FilterUmurOption>
-                            <FilterUmurOption>12 Bulan</FilterUmurOption>
-                        </FilterUmur>
-                    </Filter>
-                </FilterContainer>
                 <AddContainer>
                     <AmountContainer>
                         <RemoveIcon/>
